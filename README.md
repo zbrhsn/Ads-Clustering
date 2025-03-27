@@ -2,6 +2,7 @@
 
 
 Introduction
+
 In unsupervised learning K means clustering is one of the most used machine learning algorithms to find out distinct group from a dataset. It helps in discovering hidden patterns, segmenting data, and enabling better decision-making in various fields like marketing, biology, and image processing. This tutorial aims to provide a detailed understanding of K-Means Clustering, using a cereal dataset as an example. We will explore the mathematical foundations, step-by-step implementation, and visual interpretation using Python.
 K-Means clustering intends to partition n objects into k clusters in which each object belongs to the cluster with the nearest mean. This method produces exactly k different clusters of greatest possible distinction. The best number of clusters k leading to the greatest separation (distance) is not known as a priori and must be computed from the data. The objective of K-Means clustering is to minimize total intra-cluster variance, or, the squared error function:
 
